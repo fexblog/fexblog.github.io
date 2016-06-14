@@ -2,7 +2,7 @@
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 
-var POSTS_URL = '/api/posts.json',
+var POSTS_URL = 'api/posts.json',
     HTTP_OK = 200,
     AT = "access_token=",
     TOKEN = "f817635b9f791a74e711eb4cc32504deea8caf69";
