@@ -1,0 +1,24 @@
+
+<article class="post">
+    <header>
+        <div class="title">
+          <h2><a href="#">{{ post.name }}</a></h2>
+          <p ng-if="post.short">{{ post.short }}</p>
+        </div>
+        <div class="meta">
+          <time class="published" datetime="{{ post.published }}">{{ post.published }}</time>
+          <a href="{{ post.author.url }}" class="author"><span class="name">{{ post.author.name }}</span><img ng-src="{{ post.author.avatar }}" alt="{{ post.author.name }}" /></a>
+        </div>
+    </header>
+    <a ng-if="post.image" href="#" class="image featured"><img ng-src="{{post.image}}" alt="" /></a>
+    <p ng-bind-html="getPostContent(post)"></p>
+    <footer>
+        
+        <ul class="stats">
+            <li><a href="#">{{ post.category }}</a></li>
+            
+        </ul>
+    </footer>
+    
+</article>
+

@@ -1,0 +1,162 @@
+
+<!DOCTYPE HTML>
+
+
+
+<html>
+	<head>
+		<title>FEX Blog</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="stylesheet" href="./assets/css/main.css" />
+		
+		
+	</head>
+	<body ng-app="app">
+
+		
+			<div id="wrapper">
+
+				
+				<header id="header">
+    <h1><a href="/">FEX</a></h1>
+    <nav ng-controller="NavigationController" class="links">
+    <ul>
+        <li ng-click="setFilter()"><a href="#">All</a></li>
+        <li ng-repeat="category in categories" ng-click="setFilter(category)"><a href="#">{{category}}</a></li>
+    </ul>
+</nav>
+<nav class="main">
+    <ul>
+        <li ng-show="isSearchEnabled" class="search">
+            <a class="fa-search" href="#search">Search</a>
+            <form id="search" method="get">
+                <input ng-model="filter" type="text" name="query" placeholder="Search" />
+            </form>
+        </li>
+        <li ng-show="isMenuEnabled" class="menu">
+            <a class="fa-bars" href="#menu">Menu</a>
+        </li>
+    </ul>
+</nav>
+
+</header>
+
+				
+				
+<section id="menu">
+
+    
+    <section>
+    <form class="search" method="get" action="#">
+        <input type="text" name="query" placeholder="Search" />
+    </form>
+</section>
+
+    
+    <section>
+    <ul class="links">
+        <li>
+            <a href="#">
+                <h3>Lorem ipsum</h3>
+                <p>Feugiat tempus veroeros dolor</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <h3>Dolor sit amet</h3>
+                <p>Sed vitae justo condimentum</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <h3>Feugiat veroeros</h3>
+                <p>Phasellus sed ultricies mi congue</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <h3>Etiam sed consequat</h3>
+                <p>Porta lectus amet ultricies</p>
+            </a>
+        </li>
+    </ul>
+</section>
+
+
+    
+        <section>
+            <ul class="actions vertical">
+                <li><a href="#" class="button big fit">Log In</a></li>
+            </ul>
+        </section>
+
+</section>
+
+
+				
+					<div id="main" ng-controller="PostsController">
+						
+						<blog-post ng-show="checkFilter(post)" ng-repeat="post in posts" content="post"></blog-post>
+						
+						
+							<ul class="actions pagination">
+								<li><a href="" class="disabled button big previous">Previous Page</a></li>
+								<li><a href="#" class="button big next">Next Page</a></li>
+							</ul>
+
+					</div>
+
+				
+					<section id="sidebar">
+
+						
+							<section id="intro">
+								<a href="#" class="logo"><img src="./assets/images/logo.jpg" alt="" /></a>
+								<header>
+									<h2>FEX</h2>
+									<p>Another great place to learn from new web technologies</p>
+								</header>
+							</section>
+
+						
+						<section class="blurb">
+	<h2>About</h2>
+	<p>
+		The technology is all arround of us, here yo can learn more and more about it.
+	</p>
+	
+</section>
+
+
+						
+						<section id="footer">
+	<ul class="icons">
+		<li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a></li>
+		<li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
+		<li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
+		<li><a href="#" class="fa-rss"><span class="label">RSS</span></a></li>
+		<li><a href="#" class="fa-envelope"><span class="label">Email</span></a></li>
+	</ul>
+	<p class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>. Images: <a href="http://unsplash.com">Unsplash</a>.</p>
+</section>
+
+					</section>
+
+			</div>
+
+		
+			<script src="./assets/js/jquery.min.js"></script>
+			<script src="./assets/js/marked.js"></script>
+			<script src="./assets/js/moment-with-locales.js"></script>
+			<script src="./assets/js/angular/angular.js"></script>
+			<script src="./assets/js/angular/angular-sanitize.js"></script>
+			<script src="./assets/js/skel.min.js"></script>
+			<script src="./assets/js/util.js"></script>
+			
+			<script src="./assets/js/main.js"></script>
+			<script src="./js/main.js"></script>
+
+	</body>
+</html>

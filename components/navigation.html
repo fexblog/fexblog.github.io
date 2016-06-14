@@ -1,0 +1,19 @@
+<nav ng-controller="NavigationController" class="links">
+    <ul>
+        <li ng-click="setFilter()"><a href="#">All</a></li>
+        <li ng-repeat="category in categories" ng-click="setFilter(category)"><a href="#">{{category}}</a></li>
+    </ul>
+</nav>
+<nav class="main">
+    <ul>
+        <li ng-show="isSearchEnabled" class="search">
+            <a class="fa-search" href="#search">Search</a>
+            <form id="search" method="get">
+                <input ng-model="filter" type="text" name="query" placeholder="Search" />
+            </form>
+        </li>
+        <li ng-show="isMenuEnabled" class="menu">
+            <a class="fa-bars" href="#menu">Menu</a>
+        </li>
+    </ul>
+</nav>
