@@ -1,1 +1,1 @@
-{"version":3,"sources":["sample.scss"],"names":[],"mappings":"AACA;EACI,4BAA4B;EAC5B,aAAa,EAChB","file":"sample.css","sourcesContent":["\nbody {\n    background-color: steelblue;\n    color: white;\n}\n\n"],"sourceRoot":"/source/"}
+{"version":3,"sources":["sample.scss"],"names":[],"mappings":"AACA;EAEQ,iBAAiB,EACpB","file":"sample.css","sourcesContent":["\n.post{\n    &-content {\n        max-width: 960px;\n    }\n}\n"],"sourceRoot":"/source/"}

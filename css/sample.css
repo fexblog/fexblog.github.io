@@ -1,5 +1,4 @@
-body {
-  background-color: steelblue;
-  color: white; }
+.post-content {
+  max-width: 960px; }
 
 /*# sourceMappingURL=sample.css.map */

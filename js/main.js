@@ -116,6 +116,7 @@ app.controller('PostsController', ['$scope', '$rootScope', '$http', function Pos
 app.directive('blogPost', ['$sce', function PostDirective($sce) {
     return {
         'restrict': 'E',
+        'replace': true,
         'controller': function controller($scope) {
             $scope.getPostContent = function (post) {
                 var html = void 0;
