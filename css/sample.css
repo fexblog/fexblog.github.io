@@ -1,4 +1,9 @@
-.post-content {
-  width: 100%; }
+@media (min-width: 1280px) {
+  .post-content {
+    max-width: 726px; } }
+
+@media (min-width: 1620px) {
+  .post-content {
+    max-width: 992px; } }
 
 /*# sourceMappingURL=sample.css.map */
