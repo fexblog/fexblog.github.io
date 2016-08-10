@@ -1,1 +1,61 @@
-[{"author_gh":"juanfevasquez","name":"Introduction to Gherkin","short":"We use Gherkin when we want to describe a feature in a project. Let's try first to think about a mock project that will allow us to describe different features.","image":"https://pixabay.com/static/uploads/photo/2016/05/04/19/39/stones-1372677_960_720.jpg","category":"javascript","origin":{"repo":"learngherkin","path":"articles/01_introductionToGherkin.md","branch":"development"},"_id":"e5d26b76ae8e44d89dd3664c43071826"},{"author_gh":"juanfevasquez","name":"Objects, Prototype and This","short":"I want to make clear that this article was created after \"Callbacks, part2\" and I'm making it number 00 in my series because I believe these topics to be very essential to developing functional javascript code.","image":"https://pixabay.com/static/uploads/photo/2015/09/01/05/02/glynn-916472_960_720.jpg","category":"javascript","origin":{"repo":"functionalprogramming","path":"fpjs_00_objects-this-prototype/fpjs_00_objects-this-prototype.md","branch":"development"},"_id":"81cb6de1637f4d68b2f8cc87e314ad33"},{"author_gh":"juanfevasquez","name":"SCOPE & HOISTING IN JAVASCRIPT","short":"Seems to me that to start writing good javascript we have to understand the scope of the variables in javascript and how hoisting works.","image":"https://pixabay.com/static/uploads/photo/2012/12/21/10/06/binocular-71520_960_720.jpg","category":"javascript","origin":{"repo":"functionalprogramming","path":"fpjs_01_variable-scope/variable_scope_in_javascript.md","branch":"development"},"_id":"94120464a467452586951eebf0005d8a"},{"author_gh":"juanfevasquez","name":"Closures","short":"Closures and Variable Scope are strongly related, it is not possible to talk about Scope if you don't know about variable scope.","image":"https://pixabay.com/static/uploads/photo/2015/03/26/09/43/chain-link-690172_960_720.jpg","category":"javascript","origin":{"repo":"functionalprogramming","path":"fpjs_02_closures/fpjs_02_closures.md","branch":"development"},"_id":"3106bad899104b20b5520b6efe83b7d2"},{"author_gh":"juanfevasquez","name":"Callbacks!","short":"Callbacks in my opinion, allow us to write very clean code, becoming tidier, more \"modular\" and makes our code very unit testable.","image":"https://pixabay.com/static/uploads/photo/2012/07/23/14/28/tiger-and-turtle-52691_960_720.jpg","category":"javascript","origin":{"repo":"functionalprogramming","path":"fpjs_03_callbacks/fpjs_03_callbacks.md","branch":"development"},"_id":"16984660a716443194f98b651cdf2e5e"}]
+[{
+  "author_gh": "juanfevasquez",
+  "name": "Modules!",
+  "short": "This is just a test",
+  "image": "http://placehold.it/800x600",
+  "category": "javascript",
+  "origin": {
+    "repo": "functionalprogramming",
+    "path": "fpjs_05_modules/fpjs_05_modules.md",
+    "branch": "development"
+  },
+  "_id": "123"
+}, {
+  "author_gh": "juanfevasquez",
+  "name": "Objects, Prototype and This",
+  "short": "I want to make clear that this article was created after \"Callbacks, part2\" and I'm making it number 00 in my series because I believe these topics to be very essential to developing functional javascript code.",
+  "image": "https://pixabay.com/static/uploads/photo/2015/09/01/05/02/glynn-916472_960_720.jpg",
+  "category": "javascript",
+  "origin": {
+    "repo": "functionalprogramming",
+    "path": "fpjs_00_objects-this-prototype/fpjs_00_objects-this-prototype.md",
+    "branch": "development"
+  },
+  "_id": "81cb6de1637f4d68b2f8cc87e314ad33"
+}, {
+  "author_gh": "juanfevasquez",
+  "name": "SCOPE & HOISTING IN JAVASCRIPT",
+  "short": "Seems to me that to start writing good javascript we have to understand the scope of the variables in javascript and how hoisting works.",
+  "image": "https://pixabay.com/static/uploads/photo/2012/12/21/10/06/binocular-71520_960_720.jpg",
+  "category": "javascript",
+  "origin": {
+    "repo": "functionalprogramming",
+    "path": "fpjs_01_variable-scope/variable_scope_in_javascript.md",
+    "branch": "development"
+  },
+  "_id": "94120464a467452586951eebf0005d8a"
+}, {
+  "author_gh": "juanfevasquez",
+  "name": "Closures",
+  "short": "Closures and Variable Scope are strongly related, it is not possible to talk about Scope if you don't know about variable scope.",
+  "image": "https://pixabay.com/static/uploads/photo/2015/03/26/09/43/chain-link-690172_960_720.jpg",
+  "category": "javascript",
+  "origin": {
+    "repo": "functionalprogramming",
+    "path": "fpjs_02_closures/fpjs_02_closures.md",
+    "branch": "development"
+  },
+  "_id": "3106bad899104b20b5520b6efe83b7d2"
+}, {
+  "author_gh": "juanfevasquez",
+  "name": "Callbacks!",
+  "short": "Callbacks in my opinion, allow us to write very clean code, becoming tidier, more \"modular\" and makes our code very unit testable.",
+  "image": "https://pixabay.com/static/uploads/photo/2012/07/23/14/28/tiger-and-turtle-52691_960_720.jpg",
+  "category": "javascript",
+  "origin": {
+    "repo": "functionalprogramming",
+    "path": "fpjs_03_callbacks/fpjs_03_callbacks.md",
+    "branch": "development"
+  },
+  "_id": "16984660a716443194f98b651cdf2e5e"
+}]
