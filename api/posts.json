@@ -14,7 +14,7 @@
   "author_gh": "juanfevasquez",
   "name": "Objects, Prototype and This",
   "short": "I want to make clear that this article was created after \"Callbacks, part2\" and I'm making it number 00 in my series because I believe these topics to be very essential to developing functional javascript code.",
-  "image": "https://pixabay.com/static/uploads/photo/2015/09/01/05/02/glynn-916472_960_720.jpg",
+  "image": "/assets/images/articles/prototype.jpg",
   "category": "javascript",
   "origin": {
     "repo": "functionalprogramming",
@@ -26,7 +26,7 @@
   "author_gh": "juanfevasquez",
   "name": "SCOPE & HOISTING IN JAVASCRIPT",
   "short": "Seems to me that to start writing good javascript we have to understand the scope of the variables in javascript and how hoisting works.",
-  "image": "https://pixabay.com/static/uploads/photo/2012/12/21/10/06/binocular-71520_960_720.jpg",
+  "image": "/assets/images/articles/scope.jpg",
   "category": "javascript",
   "origin": {
     "repo": "functionalprogramming",
@@ -38,7 +38,7 @@
   "author_gh": "juanfevasquez",
   "name": "Closures",
   "short": "Closures and Variable Scope are strongly related, it is not possible to talk about Scope if you don't know about variable scope.",
-  "image": "https://pixabay.com/static/uploads/photo/2015/03/26/09/43/chain-link-690172_960_720.jpg",
+  "image": "/assets/images/articles/closure.jpg",
   "category": "javascript",
   "origin": {
     "repo": "functionalprogramming",
@@ -50,7 +50,7 @@
   "author_gh": "juanfevasquez",
   "name": "Callbacks!",
   "short": "Callbacks in my opinion, allow us to write very clean code, becoming tidier, more \"modular\" and makes our code very unit testable.",
-  "image": "https://pixabay.com/static/uploads/photo/2012/07/23/14/28/tiger-and-turtle-52691_960_720.jpg",
+  "image": "/assets/images/articles/callback.jpg",
   "category": "javascript",
   "origin": {
     "repo": "functionalprogramming",
